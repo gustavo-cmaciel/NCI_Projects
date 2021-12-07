@@ -1,0 +1,331 @@
+        * {
+            box-sizing: border-box;
+            overflow-y: 2300px;
+            padding: 0px;
+            margin: 0;
+        }
+        
+        @font-face {
+            font-family: 'Tacos\ de\ Tijuana';
+            src: url('/CSS/Tacos\ de\ Tijuana.ttf') format('embedded-opentype');
+        }
+        
+        #logo {
+            float: left;
+            background-color: #4ba549;
+            height: 150px;
+            width: 15%;
+            padding: 10px;
+            text-align: center;
+            display: block;
+        }
+        
+        .topmenu {
+            list-style-type: none;
+            margin: 0;
+            height: 80px;
+            background-color: #4ba549;
+            text-align: center;
+            padding-top: 15px;
+        }
+        
+        .topmenu li {
+            float: right;
+        }
+        
+        .topmenu li a {
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 35px;
+            text-align: center;
+            padding: 70px;
+            text-decoration: none;
+        }
+        
+        .topmenu li a:hover {
+            background-color: #6c3e88;
+        }
+        
+        .content {
+            width: 85%;
+            padding: 40px;
+            background-color: #f7bb44;
+            text-align: center;
+            float: right;
+            border-top: white double 20px;
+            border-left: white double 20px;
+        }
+        
+        #blackfriday {
+            background-color: #6c3e88;
+            display: table;
+            width: 15%;
+            float: left;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+            font-size: 20px;
+            height: 633px;
+            padding: 20px;
+            color: white;
+            border-top: double 20px;
+            display: block;
+            line-height: 110px;
+        }
+        
+        #image2 {
+            text-align: center;
+            padding: 20px;
+            background-color: #d74784;
+            clear: both;
+            border-top: double white 20px;
+        }
+        
+        #image {
+            float: left;
+        }
+        
+        .footer {
+            background-color: #6c3e88;
+            color: black;
+            font-size: large;
+            padding: 20px;
+            text-align: right;
+            clear: both;
+            height: 130px;
+            border-top: white double 20px;
+        }
+        
+        #order {
+            height: 150px;
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        #login {
+            background-color: #6c3e88;
+            display: table;
+            height: 70px;
+            padding: 20px;
+            display: block;
+            border-bottom: double white 20px;
+        }
+        
+        .selectsize {
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+            padding: 20px;
+            background-color: #f7bb44;
+            text-align: center;
+        }
+        
+        #code {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+            height: 100px;
+            padding: 20px;
+            background-color: #4ba549;
+            clear: both;
+        }
+        
+        #menu1 {
+            float: left;
+            height: 350px;
+            width: 40%;
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+        }
+        
+        #menu2 {
+            float: right;
+            height: 300px;
+            width: 60%;
+            text-align: center;
+            padding: 50px;
+        }
+        
+        .login-page {
+            width: 360px;
+            margin: auto;
+        }
+        
+        .form {
+            position: relative;
+            z-index: 1;
+            background: #FFFFFF;
+            max-width: 360px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+        
+        .form input {
+            font-family: "Roboto", sans-serif;
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        
+        .form button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: #4CAF50;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            -webkit-transition: all 0.3 ease;
+            transition: all 0.3 ease;
+            cursor: pointer;
+        }
+        
+        .form button:hover,
+        .form button:active,
+        .form button:focus {
+            background: #43A047;
+        }
+        
+        .form .message {
+            margin: 15px 0 0;
+            color: #b3b3b3;
+            font-size: 12px;
+        }
+        
+        .form .message a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        
+        .form .register-form {
+            display: none;
+        }
+        
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        
+        .container:before,
+        .container:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        .container .info {
+            margin: 50px auto;
+            text-align: center;
+        }
+        
+        .container .info h1 {
+            margin: 0 0 15px;
+            padding: 0;
+            font-size: 36px;
+            font-weight: 300;
+            color: #1a1a1a;
+        }
+        
+        .container .info span {
+            color: #4d4d4d;
+            font-size: 12px;
+        }
+        
+        .container .info span a {
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .container .info span .fa {
+            color: #EF3B3A;
+        }
+        
+        body {
+            font-family: "Roboto", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        #button {
+            background-color: #43A047;
+            color: white;
+            font: bold;
+        }
+        
+        #option {
+            width: 200px;
+            height: 40px;
+            border: none;
+            text-align: center;
+            border-bottom: solid 1px;
+            font-size: large;
+        }
+        
+        #qtd {
+            width: 200px;
+            height: 40px;
+            border: none;
+            text-align: center;
+            border-bottom: solid 1px;
+            font-size: large;
+        }
+        
+        #voucher {
+            width: 200px;
+            height: 40px;
+            border: none;
+            text-align: center;
+            border-bottom: solid 1px;
+            font-size: large;
+        }
+        
+        #order {
+            background-color: #f7bb44;
+            width: 300px;
+            height: 60px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: aliceblue;
+            border-radius: 30px;
+            text-align: center;
+        }
+        
+        #logo1 {
+            width: 150px;
+            height: 150px;
+        }
+        
+        #burrito1 {
+            width: 1100px;
+            height: 600px;
+        }
+        
+        #burritosA {
+            width: 420px;
+            height: 260px;
+        }
+        
+        #burritosB {
+            width: 420px;
+            height: 260px;
+        }
+        
+        #burritosC {
+            width: 420px;
+            height: 260px;
+        }
+        
+        #socialmedias1 {
+            height: 50px;
+        }
